@@ -3,10 +3,11 @@ package com.anuradha.services;
 import com.anuradha.entities.VehicleBrand;
 import com.anuradha.repositories.VehicleBrandRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
 
+@Service
 public class VehicleBrandServiceImpl implements VehicleBrandService {
 
     private VehicleBrandRepository vehicleBrandRepository;
